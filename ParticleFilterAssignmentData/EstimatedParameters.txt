@@ -1,0 +1,23 @@
+NOTE: All the parameters below are given as a guide and are not guaranteed.
+
+Estimated motion model parameters:
+
+alpha_1 = 0.0003 (rad^2/rad^2)
+alpha_2 = 0.0001 (rad^2/cm^2)
+alpha_3 = 0.006  (cm^2/cm^2)
+alpha_4 = 1	 (cm^2/rad^2)
+
+NOTE: These parameters assume translations in cm and rotations in radians, you will need to convert them if you operate in metres or degrees.
+
+Estimated beam model parameters:
+
+sigma = 20 (cm)
+lambda = 0.003 (cm^-1)
+
+Zshort = 0.15
+Zhit = 0.1
+Zmax = 0.01
+Zrand = 0.74
+
+Pmax = 1 if beam reading > 8000
+
